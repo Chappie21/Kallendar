@@ -7,7 +7,7 @@ const App = () =>{
     return(
         <Fragment>
             <BrowserRouter>
-                <Route exact path = '/' component = {StartView} />
+                <Route path = '/' component = {StartView} />
             </BrowserRouter>
         </Fragment>
     )
