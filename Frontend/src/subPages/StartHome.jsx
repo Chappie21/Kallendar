@@ -15,7 +15,7 @@ const StartHome = () => {
                     <p className = 'h5 font-monospace mt-3'>
                         Kallendar es más que un solo canlendario.
                     </p>
-                    <img src = {logo} alt = '' className = 'start-50'/>
+                    <img src = {logo} alt = '' className = 'img-fluid' width = '250rem'/>
                 </div>
                 {/* Cubos de fondo animados con CSS */}
                 <div className = 'cube'></div>
