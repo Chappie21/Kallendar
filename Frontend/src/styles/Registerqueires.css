@@ -1,0 +1,11 @@
+@media (max-width: 576px) {
+    .changeColor{
+        background-color: white;
+    }
+}
+
+@media (min-width: 768px) {
+    .changeColor{
+        background-color: #1d45f2;
+    }
+}

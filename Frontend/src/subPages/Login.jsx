@@ -1,11 +1,13 @@
 import { React, Fragment } from 'react'
-import {Link} from 'react-router-dom'
+import { Link, useRouteMatch} from 'react-router-dom'
 
 import '../styles/fondo.css'
 
 // Pagina de login
 const Login = () => {
 
+    // Routeo con url
+    let  { url } = useRouteMatch();
 
     // Realizar login
     const handleLogin = e =>{
@@ -47,7 +49,7 @@ const Login = () => {
                                 </div>
                             </form>
                             <p className = 'text-center text-white mt-5'>
-                                ¿No tiene cuenta? <Link className = 'text-white'>Registrarse</Link>
+                                ¿No tiene cuenta? <Link className = 'text-white' to = {`${url}Register`}>Registrarse</Link>
                             </p>
                         </div>
                     </div>

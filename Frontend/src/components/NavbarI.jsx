@@ -41,7 +41,7 @@ const NavbarI = () => {
                         <Link className='btn btn-outline-light me-3' to = {`${url}Login`}>
                             Login
                         </Link>
-                        <Link className='btn btn-light text-primary'>
+                        <Link className='btn btn-light text-primary' to = {`${url}Register`}>
                             Sign Up
                         </Link>
                     </div>
@@ -61,7 +61,7 @@ const NavbarI = () => {
                             {/* Elementos del dropdown */}
                             <ul className='dropdown-menu' id = "dropdown" aria-labelledby="dropdownMenuButton1">
                                 <li><Link className="dropdown-item" to = {`${url}Login`} onClick = {handleDisplay}>Login</Link></li>
-                                <li><Link className="dropdown-item text-primary" onClick = {handleDisplay}>Sign Up</Link></li>
+                                <li><Link className="dropdown-item text-primary" to = {`${url}Register`} onClick = {handleDisplay}>Sign Up</Link></li>
                             </ul>
                         </div>
                     </div>
